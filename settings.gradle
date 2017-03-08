@@ -17,4 +17,4 @@ include 'services:webservice'
 */
 
 rootProject.name = 'LeanFarming'
-include 'journal'
+include 'Journal'

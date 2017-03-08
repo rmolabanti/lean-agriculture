@@ -1,4 +1,4 @@
-package com.lf.tools;
+package com.lf.tools.journal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

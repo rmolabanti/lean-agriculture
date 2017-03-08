@@ -1,4 +1,4 @@
-package com.lf.tools;
+package com.lf.tools.journal;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

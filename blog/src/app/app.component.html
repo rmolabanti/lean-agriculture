@@ -1,0 +1,13 @@
+<h1>
+  {{title}}
+</h1>
+<table class="table table-striped">
+  <thead>
+    <td><label>id</label></td>
+    <td><label>name</label></td>
+  </thead>
+  <tr *ngFor="let institute of institutes">
+    <td>{{institute.id}}</td>
+    <td>{{institute.name}}</td>
+  </tr>
+</table>

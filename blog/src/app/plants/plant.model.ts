@@ -1,3 +1,14 @@
+
+export interface Taxonomy{
+  kingdom?:string;
+  clade?:string;
+  order?:string;
+  family?:string;
+  subfamily?:string;
+  genus?:string;
+  species?:string;
+}
+
 // How do we describe Plant and how to grow it ?
 // we must record the decisions, alternatives, and trade-offs that led to it.
 // Concrete examples are important too, because they help you see in action.
@@ -5,7 +16,7 @@ export interface Plant {
   id: number;
 
   //Which encompasses the description, identification, nomenclature, and classification of organisms.
-  taxonomy?: string;
+  taxonomy?: Taxonomy;
 
   //Intent / what is it about
   //A short statement that answers the following questions:

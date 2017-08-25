@@ -14,7 +14,7 @@ export interface Taxonomy{
 // Concrete examples are important too, because they help you see in action.
 export interface Plant {
   id: number;
-
+  name:string;
   //Which encompasses the description, identification, nomenclature, and classification of organisms.
   taxonomy?: Taxonomy;
 

@@ -1,3 +1,7 @@
+# LeanFarming
+This is site is live at https://raghu-m.github.io/LeanFarming/
+
+
 [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/linnovate/mean?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # [![MEAN Logo](http://mean.io/wp-content/themes/twentysixteen-child/images/meanlogo.png)](http://mean.io/) MEAN<sup>2</sup>
@@ -58,3 +62,6 @@ Click the following button to deploy MEAN.IO on Microsoft Azure public cloud:
 * [Istanbul](https://istanbul.js.org/) - Istanbul instruments your ES5 and ES2015+ JavaScript code with line counters, so that you can track how well your unit-tests exercise your codebase.
 * [TypeScript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 * [Webpack](https://webpack.js.org/) - webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into one or more bundles.
+
+
+

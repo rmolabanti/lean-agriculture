@@ -31,17 +31,29 @@ const styles = theme => ({
 });
 
 let id = 0;
-function createData(name, calories, fat, carbs, protein) {
+function createData(name, variety, msp) {
   id += 1;
-  return { id, name, calories, fat, carbs, protein };
+  return { id, name, variety, msp};
 }
 
 const data = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
+  createData('Paddy', 'common', 1750),
+  createData('Paddy', 'Grade A', 1770),
+  createData('Jowar', 'Maldandi', 2450),
+  createData('Bajra', '-', 1950),
+  createData('Ragi', '-', 2897),
+  createData('Maize', '-', 1700),
+  createData('Tur (Arhar)', '-', 5675),
+  createData('Moong', '-', 6975),
+  createData('Urad', '-', 5600),
+  createData('Groundnut', '-', 4890),
+  createData('Sunﬂower Seed', '-', 5388),
+  createData('Soyabean', '-', 3399),
+  createData('Sesamum', '-', 6249),
+  createData('Nigerseed', '-', 5877),
+  createData('Cotton', 'Medium Staple', 2897),
+  createData('Cotton', 'Long Staple', 2897),
+
 ];
 
 function CustomizedTable(props) {
@@ -52,11 +64,9 @@ function CustomizedTable(props) {
       <Table className={classes.table}>
         <TableHead>
           <TableRow>
-            <CustomTableCell>Dessert (100g serving)</CustomTableCell>
-            <CustomTableCell numeric>Calories</CustomTableCell>
-            <CustomTableCell numeric>Fat (g)</CustomTableCell>
-            <CustomTableCell numeric>Carbs (g)</CustomTableCell>
-            <CustomTableCell numeric>Protein (g)</CustomTableCell>
+            <CustomTableCell>Commodity</CustomTableCell>
+            <CustomTableCell>Variety</CustomTableCell>
+            <CustomTableCell numeric>MSP</CustomTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -64,10 +74,8 @@ function CustomizedTable(props) {
             return (
               <TableRow className={classes.row} key={n.id}>
                 <CustomTableCell>{n.name}</CustomTableCell>
-                <CustomTableCell numeric>{n.calories}</CustomTableCell>
-                <CustomTableCell numeric>{n.fat}</CustomTableCell>
-                <CustomTableCell numeric>{n.carbs}</CustomTableCell>
-                <CustomTableCell numeric>{n.protein}</CustomTableCell>
+                <CustomTableCell >{n.variety}</CustomTableCell>
+                <CustomTableCell numeric>{n.msp}</CustomTableCell>
               </TableRow>
             );
           })}

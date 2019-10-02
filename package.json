@@ -2,24 +2,18 @@
   "name": "lean-agriculture",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rmolabanti.github.io/lean-agriculture",
+  "homepage": "http://lean-agriculture-app.s3-website.ap-south-1.amazonaws.com",
   "dependencies": {
-    "@material-ui/core": "^3.0.2",
-    "@material-ui/icons": "^1.0.0-beta.43",
-    "gh-pages": "^1.1.0",
-    "material-ui": "^1.0.0-beta.44",
-    "npm": "^6.0.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "^2.1.3",
-    "typeface-roboto": "0.0.54"
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "browserslist": [
@@ -27,5 +21,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmolabanti/lean-agriculture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmolabanti/lean-agriculture/issues"
+  }
 }

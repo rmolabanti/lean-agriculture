@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Table, { TableBody, TableCell, TableHead, TableRow } from 'material-ui/Table';
@@ -34,7 +34,7 @@ const styles = theme => ({
 let id = 0;
 function createData(name, variety, msp) {
   id += 1;
-  return { id, name, variety, msp};
+  return { id, name, variety, msp };
 }
 
 const data = [
@@ -62,8 +62,8 @@ function CustomizedTable(props) {
 
   return (
     <Paper className={classes.root}>
-    <Typography variant="h4" component="h2">
-          MSP : 2018-2019
+      <Typography variant="h4" component="h2">
+        MSP : 2018-2019
     </Typography>
       <Table className={classes.table}>
         <TableHead>

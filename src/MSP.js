@@ -74,7 +74,6 @@ export default function MspTable() {
                 <TableHead>
                     <TableRow>
                         <StyledTableCell>Commodity</StyledTableCell>
-                        <StyledTableCell align="right">Calories</StyledTableCell>
                         <StyledTableCell align="right">Variety</StyledTableCell>
                         <StyledTableCell numeric align="right">MSP</StyledTableCell>
                     </TableRow>
